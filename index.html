@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="assets/logo.png" alt="Logo">
+            <h1>Survey Form</h1>
+        </div>
+        <form>
+            <label for="first-name">First Name*</label>
+            <input type="text" id="first-name" name="first-name" required>
+            
+            <label for="last-name">Last Name*</label>
+            <input type="text" id="last-name" name="last-name" required>
+            
+            <label for="email">Email Address*</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="rating">How was your overall experience?*</label>
+            <div class="rating">
+                <label>⭐⭐⭐⭐⭐</label>
+            </div>
+            
+            <label>Was our representative (check all that apply):</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="attributes" value="Professional and courteous?"> Professional and courteous?</label>
+                <label><input type="checkbox" name="attributes" value="Knowledgeable?"> Knowledgeable?</label>
+                <label><input type="checkbox" name="attributes" value="Friendly?"> Friendly?</label>
+                <label><input type="checkbox" name="attributes" value="Efficient?"> Efficient?</label>
+                <label><input type="checkbox" name="attributes" value="Patient?"> Patient?</label>
+                <label><input type="checkbox" name="attributes" value="Warm and respectful?"> Warm and respectful?</label>
+                <label><input type="checkbox" name="attributes" value="Clear and direct?"> Clear and direct?</label>
+            </div>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+img {
+    width: 90px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.container input, .container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container .rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container .rating label {
+    font-weight: normal;
+    margin-right: 5px;
+}
+.container .checkbox-group {
+    display: block;
+}
+.container.checkbox-group label {
+    float: right;
+    margin-left: 10px; /* add some space between the checkbox and the label */
+    margin-bottom: 10px;
+}
+.container button {
+    background-color: #ffa726;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.container button:hover {
+    background-color: #ff7043;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.head img {
+    margin-right: 10px;
+}
+.star {
+    font-size: 24px;
+    color: #ffd700; /* Yellow */
+}
+.star.grey {
+    color: #d3d3d3; /* Light grey */
+}
